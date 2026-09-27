@@ -4,10 +4,10 @@
 #include <Servo.h>
 
 
-String ssid  = "XXX"; //Enter Wifi Username
-String pass  = "YYY"; // Enter Wifi Password
-String token = "ZZZ";
-String chatid="AAA";
+String ssid  = "YOUR_WIFI_SSID";
+String pass  = "YOUR_WIFI_PASSWORD";
+String token = "YOUR_TELEGRAM_BOT_TOKEN";
+String chatid = "YOUR_TELEGRAM_CHAT_ID";
 
 Servo myServo;
 WiFiClientSecure secured_client;
